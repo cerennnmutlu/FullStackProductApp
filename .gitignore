@@ -416,3 +416,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+node_modules/
+bin/
+obj/
+.DS_Store
+build/
