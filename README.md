@@ -42,23 +42,8 @@ FullStackProductApp/
 ├── README.md
 └── FullStackProductApp.sln
 
+---
 
-⚙️ Getting Started
-
-
-```bash
-###Backend
-cd backend/ProductApi
-dotnet run
-
-###Frontend
-cd frontend/product-frontend
-npm install
-npm start
-
-⚠️ Make sure to create a .env file in product-frontend/ with the following content:
-env:
-REACT_APP_API_URL=https://fullstack-product-api-0097192acc0a.herokuapp.com
 
 🌐 Live Demo
 
@@ -78,3 +63,20 @@ Deploy:    Vercel (Frontend), Heroku (Backend)
 ## 🖼️ Screenshots
 [CaseStudyImages.pdf](https://github.com/user-attachments/files/21119248/CaseStudyImages.pdf)
 
+⚙️ Getting Started
+
+
+```bash
+###Backend
+cd backend/ProductApi
+dotnet run
+
+###Frontend
+cd frontend/product-frontend
+npm install
+npm start
+
+
+⚠️ Make sure to create a .env file in product-frontend/ with the following content:
+env:
+REACT_APP_API_URL=https://fullstack-product-api-0097192acc0a.herokuapp.com
