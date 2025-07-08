@@ -1,58 +1,72 @@
-# 💍 Full Stack Product App
+💍 Full Stack Product App
+This is a full-stack product listing application built using React for the frontend and .NET Core Web API for the backend. The app dynamically calculates product prices based on real-time gold prices and includes features such as filtering, responsive design, and popularity score visualization.
 
-This is a full-stack product listing application built with **React** (frontend) and **.NET Core Web API** (backend). The project dynamically calculates product prices based on real-time gold prices and includes features like filtering and responsive design.
+🚀 Features
+✅ Frontend (React)
+Product listing with image carousel and color variations
 
----
+Popularity score indicators
 
-## 🚀 Features
+Responsive design (desktop & mobile)
 
-### ✅ Frontend (React)
-- Product list with image carousel and color variants
-- Popularity score visualization
-- Responsive design for desktop & mobile
-- Axios-based API integration
+API integration using Axios
 
-### ✅ Backend (.NET Core Web API)
-- Reads products from a JSON file
-- Calculates price: `(popularityScore + 1) * weight * goldPrice`
-- Provides filtering by:
-  - **Price Range**
-  - **Popularity Score**
-- Dynamic gold price fetching (mocked or real)
+✅ Backend (.NET Core Web API)
+Reads product data from a JSON file
 
----
+Calculates price using the formula:
+(popularityScore + 1) * weight * goldPrice
 
-## 📁 Project Structure
+Supports filtering by:
+
+Price Range
+
+Popularity Score
+
+Simulated or real-time gold price fetching
+
+
 FullStackProductApp/
 │
 ├── backend/
-│ └── ProductApi/ # ASP.NET Core Web API
+│   └── ProductApi/       # ASP.NET Core Web API
 │
-├── frontend/ # React frontend
+├── frontend/
+│   └── product-frontend/ # React Frontend
 │
 ├── README.md
 └── FullStackProductApp.sln
 
 
-### Backend
+⚙️ Getting Started
+
+###Backend
 cd backend/ProductApi
 dotnet run
 
-### Frontend
-cd frontend
+###Frontend
+cd frontend/product-frontend
 npm install
 npm start
 
-🌐 Live Demo
-Frontend (Vercel): https://your-vercel-link.vercel.app
+⚠️ Make sure to create a .env file in product-frontend/ with the following content:
+env:
+REACT_APP_API_URL=https://fullstack-product-api-0097192acc0a.herokuapp.com
 
-Backend (Heroku / Render): https://your-api-link
+🌐 Live Demo
+🖥️ Frontend (React - Vercel)
+🔗 https://fullstack-product-frontend-6fwiyu4xf-cerennnmutlus-projects.vercel.app/
+
+⚙️ Backend (ASP.NET Core - Heroku)
+🔗 [https://fullstack-product-api-0097192acc0a.herokuapp.com/api/products](https://fullstack-product-api-0097192acc0a.herokuapp.com/api/products)
 
 🛠 Tech Stack
 Frontend: React, JavaScript, Axios, HTML, CSS
 
 Backend: ASP.NET Core Web API
 
-Deployment: Vercel (Frontend), Heroku/Render (Backend)
+Deployment: Vercel (Frontend), Heroku (Backend)
 
+## 🖼️ Screenshots
+[CaseStudyImages.pdf](https://github.com/user-attachments/files/21119248/CaseStudyImages.pdf)
 
