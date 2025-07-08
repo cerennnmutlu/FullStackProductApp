@@ -33,12 +33,11 @@ The app dynamically calculates product prices based on real-time gold prices and
 ## 📁 Project Structure
 
 FullStackProductApp/
-│
 ├── backend/
-│   └── ProductApi/       # ASP.NET Core Web API
+│ └── ProductApi/ → ASP.NET Core Web API
 │
 ├── frontend/
-│   └── product-frontend/ # React Frontend
+│ └── product-frontend/ → React Frontend
 │
 ├── README.md
 └── FullStackProductApp.sln
@@ -46,6 +45,8 @@ FullStackProductApp/
 
 ⚙️ Getting Started
 
+
+```bash
 ###Backend
 cd backend/ProductApi
 dotnet run
