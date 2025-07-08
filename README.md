@@ -1,30 +1,36 @@
-💍 Full Stack Product App
-This is a full-stack product listing application built using React for the frontend and .NET Core Web API for the backend. The app dynamically calculates product prices based on real-time gold prices and includes features such as filtering, responsive design, and popularity score visualization.
+# 💍 Full Stack Product App
 
-🚀 Features
-✅ Frontend (React)
-Product listing with image carousel and color variations
+This is a full-stack product listing application built using **React** for the frontend and **.NET Core Web API** for the backend.  
+The app dynamically calculates product prices based on real-time gold prices and includes features such as:
 
-Popularity score indicators
+- 📊 Filtering  
+- 📱 Responsive design  
+- ⭐ Popularity score visualization  
 
-Responsive design (desktop & mobile)
+---
 
-API integration using Axios
+## 🚀 Features
 
-✅ Backend (.NET Core Web API)
-Reads product data from a JSON file
+### ✅ Frontend (React)
 
-Calculates price using the formula:
-(popularityScore + 1) * weight * goldPrice
+- 🖼️ Product listing with image carousel and color variations  
+- ⭐ Popularity score indicators  
+- 📱 Responsive design (desktop & mobile)  
+- 🔌 API integration using Axios  
 
-Supports filtering by:
+### ✅ Backend (.NET Core Web API)
 
-Price Range
+- 📁 Reads product data from a JSON file  
+- 🧮 Calculates price using the formula:  
+  `(popularityScore + 1) * weight * goldPrice`  
+- 🔍 Supports filtering by:  
+  - Price Range  
+  - Popularity Score  
+- 📡 Simulated or real-time gold price fetching  
 
-Popularity Score
+---
 
-Simulated or real-time gold price fetching
-
+## 📁 Project Structure
 
 FullStackProductApp/
 │
@@ -54,10 +60,13 @@ env:
 REACT_APP_API_URL=https://fullstack-product-api-0097192acc0a.herokuapp.com
 
 🌐 Live Demo
+
 🖥️ Frontend (React - Vercel)
+
 🔗 https://fullstack-product-frontend-6fwiyu4xf-cerennnmutlus-projects.vercel.app/
 
 ⚙️ Backend (ASP.NET Core - Heroku)
+
 🔗 [https://fullstack-product-api-0097192acc0a.herokuapp.com/api/products](https://fullstack-product-api-0097192acc0a.herokuapp.com/api/products)
 
 🛠 Tech Stack
