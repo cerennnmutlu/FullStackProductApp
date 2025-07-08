@@ -56,8 +56,11 @@ FullStackProductApp/
 🔗 [https://fullstack-product-api-0097192acc0a.herokuapp.com/api/products](https://fullstack-product-api-0097192acc0a.herokuapp.com/api/products)
 
 🛠 Tech Stack
+
 Frontend:  React, JavaScript, Axios, HTML, CSS  
+
 Backend:   ASP.NET Core Web API  
+
 Deploy:    Vercel (Frontend), Heroku (Backend) 
 
 ## 🖼️ Screenshots
